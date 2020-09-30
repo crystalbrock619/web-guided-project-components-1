@@ -138,6 +138,7 @@ console.log(makePanel('the title', 'the content'))
 panelData.forEach(objectPanel => {
   const { title, content } = objectPanel
   const panel = makePanel(title, content)
+  accordion.appendChild(panel)
 })
 
 // [STRETCH] Comment out the links inside the nav and
