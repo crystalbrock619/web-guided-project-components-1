@@ -120,7 +120,7 @@ function makePanel(title, content/* what data does the panel need? */) {
 
 
   // don't forget to return the panel!
-  return null
+  return panel
 }
 console.log(makePanel('the title', 'the content'))
 
