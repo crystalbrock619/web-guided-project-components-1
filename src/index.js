@@ -1,3 +1,7 @@
+const someData = []
+
+
+
 // TASK 0- Motivate demoing a small makeImage component
 //  that takes an { imgURL } and returns an img element.
 //  Then loop over these URLs making images as you go:
