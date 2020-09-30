@@ -30,9 +30,9 @@ function imgCreator(imgURL) {
   img.src = imgURL
   return img
 }
-function Image(data) {
-  return <img 
-}
+// function Image(data) {
+//   return <img src={data.src}/>
+// }
 let images = imageData.map((image) => {
   let img = imgCreator(image.imageURL)
   return img
