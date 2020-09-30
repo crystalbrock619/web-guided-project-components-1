@@ -8,7 +8,9 @@ function divMaker(text, color) { // COMPONENT takes raw data, returns DOM elemen
   return theNewDiv // RETURN
 }
 const div = divMaker('lambda', 'red')
+const div2 = divMaker('web 36', 'green')
 document.body.prepend(div)
+document.body.prepend(div2)
 
 // TASK 0- Motivate demoing a small makeImage component
 //  that takes an { imgURL } and returns an img element.
