@@ -1,7 +1,9 @@
 const someData = ['foo', 'bar', 'baz', 'fizz'] // this is raw data from a data server
 
 function divMaker(text, color) {
-  const 
+  const theNewDiv = document.createElement('div')
+  theNewDiv.classList.add('nice-div')
+  
 }
 
 
