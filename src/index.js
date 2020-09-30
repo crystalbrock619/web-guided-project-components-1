@@ -1,4 +1,5 @@
 const someData = ['foo', 'bar', 'baz', 'fizz'] // this is raw data from a data server
+someData.forEach()
 
 function divMaker(text, color) { // COMPONENT takes raw data, returns DOM element(s)
   const theNewDiv = document.createElement('div') // instantiation
