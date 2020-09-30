@@ -1,13 +1,13 @@
 const someData = ['foo', 'bar', 'baz', 'fizz'] // this is raw data from a data server
 
 function divMaker(text, color) { // COMPONENT takes raw data, returns DOM element(s)
-  const theNewDiv = document.createElement('div')
-  theNewDiv.classList.add('nice-div')
-  theNewDiv.textContent = text
-  theNewDiv.style.color = color
-  return theNewDiv
+  const theNewDiv = document.createElement('div') // instantiation
+  theNewDiv.classList.add('nice-div') // adding attributes
+  theNewDiv.textContent = text // adding text
+  theNewDiv.style.color = color // adding inline styles
+  return theNewDiv // RETURN
 }
-
+const div = divMaker('lambda', '')
 
 // TASK 0- Motivate demoing a small makeImage component
 //  that takes an { imgURL } and returns an img element.
