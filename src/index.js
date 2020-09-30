@@ -55,6 +55,8 @@ import constants from './data/constants'
 console.log(panelData)
 console.log(constants)
 
+const open = constants.open
+const close = constants.close
 
 // TASK 2- Verify our imports using log statements
 console.log() // log the panelData
