@@ -11,6 +11,10 @@ function divMaker(text, color) { // COMPONENT takes raw data, returns DOM elemen
   theNewDiv.style.color = color // adding inline styles
   return theNewDiv // RETURN
 }
+function divMaker(data) {
+  const { text, color } = data
+  return <div>{text}</div>
+}
 
 const div = divMaker('lambda', 'red')
 const div2 = divMaker('web 36', 'green')
