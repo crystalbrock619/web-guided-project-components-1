@@ -55,6 +55,7 @@ import constants from './data/constants'
 console.log(panelData)
 console.log(constants)
 
+
 // TASK 2- Verify our imports using log statements
 console.log() // log the panelData
 console.log() // log the open arrow
