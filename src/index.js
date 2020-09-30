@@ -1,4 +1,5 @@
-const someData = []
+const someData = ['foo', 'bar', 'baz', 'fizz'] // this is raw data from a data server
+
 
 
 
