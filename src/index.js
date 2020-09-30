@@ -54,7 +54,7 @@ import constants from './data/constants'
 
 // const open = constants.open
 // const close = constants.close
-const { open, close } = constants
+const { open, close } = constants // destructuring
 
 // TASK 2- Verify our imports using log statements
 console.log(panelData) // log the panelData
