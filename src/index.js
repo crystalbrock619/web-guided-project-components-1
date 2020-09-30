@@ -108,7 +108,7 @@ function makePanel(title, content/* what data does the panel need? */) {
   panelBar.classList.add('panel-bar')
   panelButtons.classList.add('panel-buttons')
   openButton.classList.add('panel-btn-open')
-  closeButton.classList.add(['panel-btn-close', 'hide-btn')
+  closeButton.classList.add('panel-btn-close', 'hide-btn')
   panelContent.classList.add('panel-content')
 
   // TASK 8- Set text content using arguments as raw material
