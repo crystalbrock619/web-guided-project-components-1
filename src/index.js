@@ -11,7 +11,7 @@ function divMaker(text, color) { // COMPONENT takes raw data, returns DOM elemen
   theNewDiv.style.color = color // adding inline styles
   return theNewDiv // RETURN
 }
-// function divMaker(data) {
+// function divMaker(data) { // REACT COMPONENT
 //   const { text, color } = data
 //   return <div style={{ color: color }}>{text}</div>
 // }
@@ -34,7 +34,7 @@ function imgCreator(imgURL) {
   img.src = imgURL
   return img
 }
-// function Image(data) {
+// function Image(data) { REACT COMPONENT
 //   return <img src={data.src}/>
 // }
 let images = imageData.map((image) => {
