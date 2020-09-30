@@ -103,9 +103,6 @@ function makePanel(title, content/* what data does the panel need? */) {
   panelButtons.appendChild(openButton)
   panelButtons.appendChild(closeButton)
 
-
-debugger
-
   // TASK 7- Add proper class names to our elements (See index.html for reference)
 
 
