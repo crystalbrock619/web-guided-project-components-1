@@ -26,8 +26,8 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
 function imageMaker(imageURL) {
-  // ins img
-  // add its src att
+  // instantiate img
+  // add its src attr
   // return
 }
 imageData.forEach(imageURL => {
