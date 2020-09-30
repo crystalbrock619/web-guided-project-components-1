@@ -25,16 +25,19 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_3398.jpg' },
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
-function imageMaker(imageURL) {
-  // instantiate img
-  // add its src attr
-  // return
+function imgCreator(imgURL) {
+  let img = document.createElement('img');
+  img.src = imgURL;
+  return img;
 }
-imageData.forEach(imageURL => {
-  // make an image with your component
-  // attach it to the DOM
+let images = imageData.map((image) => {
+  let img = imgCreator(image.imageURL);
+  return img
 })
-
+let secondary = document.querySelector('.secondary');
+images.forEach((img) => {
+  secondary.prepend(img);
+})
 
 // TASK 1- Import the data we need to "hydrate" our component
 //  On the one hand, the default export from data/panelData.js
