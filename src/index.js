@@ -1,8 +1,8 @@
 const someData = ['foo', 'bar', 'baz', 'fizz'] // this is raw data from a data server
-someData.forEach(str => {
-  const div = divMaker(str, 'grey')
-  document.body.prepend(div)
-})
+// someData.forEach(str => {
+//   const div = divMaker(str, 'grey')
+//   document.body.prepend(div)
+// })
 
 function divMaker(text, color) { // COMPONENT takes raw data, returns DOM element(s)
   const theNewDiv = document.createElement('div') // instantiation
@@ -18,8 +18,8 @@ function divMaker(text, color) { // COMPONENT takes raw data, returns DOM elemen
 
 const div = divMaker('lambda', 'red')
 const div2 = divMaker('web 36', 'green')
-document.body.prepend(div)
-document.body.prepend(div2)
+// document.body.prepend(div)
+// document.body.prepend(div2)
 
 // TASK 0- Motivate demoing a small makeImage component
 //  that takes an { imgURL } and returns an img element.
@@ -42,9 +42,9 @@ let images = imageData.map((image) => {
   return img
 })
 let secondary = document.querySelector('.secondary')
-images.forEach((img) => {
-  secondary.prepend(img)
-})
+// images.forEach((img) => {
+//   secondary.prepend(img)
+// })
 
 // TASK 1- Import the data we need to "hydrate" our component
 //  On the one hand, the default export from data/panelData.js
