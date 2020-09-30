@@ -25,6 +25,15 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_3398.jpg' },
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
+function imageMaker(imageURL) {
+  // ins img
+  // add its src att
+  // return
+}
+imageData.forEach(imageURL => {
+  // make an image with your component
+  // attach it to the DOM
+})
 
 
 // TASK 1- Import the data we need to "hydrate" our component
