@@ -1,7 +1,6 @@
 const someData = ['foo', 'bar', 'baz', 'fizz'] // this is raw data from a data server
 someData.forEach(str => {
   const div = divMaker(str, 'grey')
-  console.log(div)
   document.body.prepend(div)
 })
 
