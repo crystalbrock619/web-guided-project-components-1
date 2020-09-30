@@ -3,7 +3,8 @@ const someData = ['foo', 'bar', 'baz', 'fizz'] // this is raw data from a data s
 function divMaker(text, color) {
   const theNewDiv = document.createElement('div')
   theNewDiv.classList.add('nice-div')
-  
+  theNewDiv.textContent = text
+  return theNewDiv
 }
 
 
