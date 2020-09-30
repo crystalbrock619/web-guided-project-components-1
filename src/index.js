@@ -26,17 +26,17 @@ const imageData = [
   { imageURL: 'https://images.dog.ceo/breeds/mastiff-bull/n02108422_2947.jpg' },
 ]
 function imgCreator(imgURL) {
-  let img = document.createElement('img');
-  img.src = imgURL;
-  return img;
+  let img = document.createElement('img')
+  img.src = imgURL
+  return img
 }
 let images = imageData.map((image) => {
-  let img = imgCreator(image.imageURL);
+  let img = imgCreator(image.imageURL)
   return img
 })
-let secondary = document.querySelector('.secondary');
+let secondary = document.querySelector('.secondary')
 images.forEach((img) => {
-  secondary.prepend(img);
+  secondary.prepend(img)
 })
 
 // TASK 1- Import the data we need to "hydrate" our component
